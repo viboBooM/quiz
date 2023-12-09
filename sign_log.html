@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="quiz2.js"></script>
+    <title>log/sign</title>
+</head>
+<body id="p2">
+    <button id="ba"><a href="index.html">back</a></button>
+    <div id="f">
+        <form action="quiz2.html" method="post" onsubmit="return verif()">
+            <fieldset>
+                <legend>fill the form</legend>
+                <table>
+                    <tr>
+                        <td><label for="n">user name:</label></td>
+                        <td><input type="text" name="n" id="n"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="d">birthday:</label></td>
+                        <td><input type="date" name="d" id="d"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="e">email:</label></td>
+                        <td><input type="email" name="e" id="e"></td>
+                    </tr>
+                    <tr>
+                        
+                        <td><input class="btnn" type="submit" value="Done"><input class="btnn" type="reset" value="cancel"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

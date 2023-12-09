@@ -1,0 +1,153 @@
+#p1{
+   background-image:url(assets/bg.gif);
+   background-repeat: no-repeat;
+   
+   
+    
+}
+/*index css*/
+#s{
+    
+    
+  border-style:groove; 
+  border-radius: 30px; 
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color:rgb(153, 242, 242);
+  background-color: rgb(47, 161, 184);
+  
+}
+#l{
+    background-color: rgb(47, 161, 184);
+    border-color: rgb(153, 242, 242);
+    
+  border-style:groove; 
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+}
+#b{
+    margin-top: 450px;
+    text-align: center;
+}
+#l:hover{
+    background-color: rgb(94, 210, 239);
+    transform:scale(1.2);
+}
+#s:hover{
+    background-color: rgb(94, 210, 239);
+    transform:scale(1.2);
+}
+a{
+    text-decoration: none;
+}
+#s,#l{
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration: none;
+    ;
+    
+}
+/*sign css*/
+#p2{
+    background-color: rgb(18, 18, 70);
+
+}
+fieldset{
+    border-radius: 12px;
+    border-color: aqua;
+    
+  width: 500px;
+ padding: 10px 0;
+  position: relative;
+  top: 400px;
+  left: 700px;
+  background-color: rgba(5, 17, 78, 0.597);
+  
+}
+#ba{
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #7da8e9;
+    border-style: inherit;
+    border-radius: 3px;
+    
+}
+#ba:hover{
+    background-color: #d0d7e3;
+    color: rgb(2, 13, 19);
+
+}
+label,legend{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 20px 10px;
+    font-size: 20px;
+    
+}
+.btnn{
+    align-items: center;
+    margin-left: 15px;
+    border-radius: 4px;
+    border-color: aqua;
+    background-color: aqua;
+
+}
+.btnn:hover{
+    background-color: #7da8e9;
+    color: rgb(208, 211, 225);
+}
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    
+}
+/*quiz*/
+/**{
+    background: rgb(139, 196, 198);
+    background-image: linear-gradient(315deg,#092d63 0% ,#f5f7f7 100%);
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}*/
+#p3{
+    background: rgb(139, 196, 198);
+    background-image: linear-gradient(315deg,#7da8e9 100% ,#040725c0 0%);
+    font-size: 50px;
+    
+}
+#q1{
+    text-align: center;
+    width: 500;
+    height: 500;
+}
+.quizp{
+    
+    width: 300px;
+    height: 300px;
+}
+.que{
+   
+    align-items: center;
+    border-style:inherit;
+    border-radius: 20px;
+}
+.in{
+    cursor: pointer;
+    font-size: 100px;
+    border-style: groove;
+    border-radius: 20px;
+}
+.in:hover{
+    color: #ffffff;
+    background-color: #000000;
+}

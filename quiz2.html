@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        
+        <h1>simple quiz</h1>
+        <div class="quiz">
+            <h2 id="question"> guess the characters</h2>
+                <form action="#resultat.html" method="post" onsubmit="return score()">
+                    <div id="q1">
+                        <img src="assets/ban.jpg" id="m1" class="m">
+                        <div id="btnans">
+                            <input type="radio" name="q" class="btn">escanor
+                            <br>
+                            <input type="radio" name="q" class="btn"id="correct1" >ban
+                            <br> 
+                            <input type="radio" name="q" class="btn">meliodas
+                        </div>
+                    </div>
+
+
+                    <div id="q2">
+                        <img src="assets/gojo satoru.jpg" id="m2" class="m">
+                        <div id="btnans">
+                            <input type="radio" name="q" class="btn"id="correct2" >gojo satoru
+                            <br>
+                            <input type="radio" name="q" class="btn">ryoman sukuna
+                            <br>
+                            <input type="radio" name="q" class="btn">itadori yuuji
+                        </div>
+                    </div>
+
+
+                    <div id="q3">
+                        <img src="assets/killua zoldic.jpg" id="m3" class="m">
+                        <div id="btnans">
+                            <input type="radio" name="q" class="btn"id="correct3" >killua zoldik
+                            <br>
+                            <input type="radio" name="q" class="btn">illumi zoldik
+                            <br>
+                            <input type="radio" name="q" class="btn">neferpitou
+                        </div>
+
+                        <div id="q4">
+                            <img src="assets/manjiro sano.jpg" id="m4" class="m">
+                            <div id="btnans">
+                                <input type="radio" name="q" class="btn"id="correct4" >manjiro sano
+                                <br>
+                                <input type="radio" name="q" class="btn">keisuke baji
+                                <br>
+                                <input type="radio" name="q" class="btn">takashi mitsuya
+                            </div>
+
+                            <div id="q5">
+                                <img src="assets/kamado tanjiro.jpg" id="m5" class="m">
+                                <div id="btnans">
+                                    <input type="radio" name="q" class="btn"id="correct5" >kamado tanjiro
+                                    <br>
+                                    <input type="radio" name="q" class="btn">kamado nezuko
+                                    <br>
+                                    <input type="radio" name="q" class="btn">kibutsuji muzan
+                                </div>
+
+                                <div id="q6">
+                                    <img src="assets/monkey d luffy.jpg" class="m">
+                                    <div id="btnans">
+                                        <input type="radio" name="q" class="btn">Don Quijote Doflamingo
+                                        <br>
+                                        <input type="radio" name="q" class="btn">trafalgar D water law
+                                        <br>
+                                        <input type="radio" name="q" class="btn"id="correct6" >monkey D luffy
+                                    </div>
+
+                                    <div id="q7">
+                                        <img src="assets/saitama.jpg" class="m">
+                                        <div id="btnans">
+                                            <input type="radio" name="q" class="btn">genos
+                                            <br>
+                                            <input type="radio" name="q" class="btn"id="correct7" >saitama
+                                            <br>
+                                            <input type="radio" name="q" class="btn">Tornado of Terror
+                                        </div>
+
+                                        <div id="q8">
+                                            <img src="assets/Tôshirô Hitsugaya.jpg" class="m">
+                                            <div id="btnans">
+                                                <input type="radio" name="q" class="btn">Kenpachi Zaraki
+                                                <br>
+                                                <input type="radio" name="q" class="btn">Sōsuke Aizen
+                                                <br>
+                                                <input type="radio" name="q" class="btn"id="correct8" >Tôshirô Hitsugaya 
+                                            </div>
+
+                                            <div id="q9">
+                                                <img src="assets/02.jpg" class="m">
+                                                <div id="btnans">
+                                                    <input type="radio" name="q" class="btn"id="correct9" >zero two
+                                                    <br>
+                                                    <input type="radio" name="q" class="btn">hiro
+                                                    <br>
+                                                    <input type="radio" name="q" class="btn">ichigo 
+                                                </div>
+
+                                                <div id="q10">
+                                                    <img src="assets/Yu Takeyama.jpg" class="m">
+                                                    <div id="btnans">
+                                                        <input type="radio" name="q" class="btn">Keigo Takami
+                                                        <br>
+                                                        <input type="radio" name="q" class="btn" id="correct10" >Yu Takeyama
+                                                        <br>
+                                                        <input type="radio" name="q" class="btn" >Nemuri Kayama
+                                                    </div>
+
+                    </div>
+
+            </div>
+            <input type="submit" value="next"  id="nextbtn" onclick=" return score()" >
+        </form>
+        </div>
+    </div>
+<script src="quiz2.js"></script>
+    
+</body>
+</html>
